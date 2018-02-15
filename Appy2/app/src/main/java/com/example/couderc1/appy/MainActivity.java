@@ -24,11 +24,14 @@ public class MainActivity extends AppCompatActivity {
             viewBack.setText(messageBack);
             Toast.makeText(this, "Back!!!", Toast.LENGTH_LONG).show();
         }
+
+
+
     }
 
     public void otherActivityName(View view) {
         Intent intentOtherActiv = new Intent(this, OtherActivity.class);
-        EditText textName = (EditText) findViewById(R.id.editTextName);
+        EditText textName = findViewById(R.id.editTextName);
         intentOtherActiv.putExtra(KEY_EXTRA_NAME, textName.getText().toString());
         startActivity(intentOtherActiv);
     }
@@ -37,4 +40,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intentOtherActiv = new Intent(this, OtherActivity.class);
         startActivity(intentOtherActiv);
     }
+
+
 }

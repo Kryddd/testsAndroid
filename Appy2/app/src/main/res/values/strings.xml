@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Appy</string>
-    <string name="back">Retour</string>
-    <string name="Ok">Valider</string>
+    <string name="back">Back</string>
+    <string name="Ok">Ok</string>
     <string name="nameEdit">Name</string>
+    <string name="share"></string>
 </resources>
